@@ -4,7 +4,7 @@ GUI for HETS Data Analysis.
 ### Using Github
 If you have never used Github, this is how to properly install this GUI and update it when new updates are pushed.
 1. Open the terminal on your computer and navigate to the folder in which you want the GUI. Use 'ls' to look inside your current folder and 'cd _folder_' to move to a deeper one.
-2. Run 'git clone https://github.com/gt-space/HETSAnalysis.git'. This will create a version of the GUI on your computer. You can now run it.
+2. Run 'git clone https://github.com/gt-space/HETSAnalysis.git'. This will create a version of the GUI on your computer. You can run it from the file explorer like a normal application.
 3. When new updates are pushed, run 'git pull origin main' to receive the update. The number at the bottom of the GUI should match the number in the commit message in Github.
 
 ### Using the GUI
