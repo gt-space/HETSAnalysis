@@ -21,4 +21,4 @@ If there seems to be a problem with the output data file, or if a sensor was swa
 2. Navigate to the 'APPS' tab in the blue banner.
 3. Click 'Design App' in the grey header.
 4. Click 'Open...' and find the GUI.
-5. You are now editig the GUI on your computer. Switch to 'Code View' to see the code.
+5. You are now editing the GUI on your computer. Switch to 'Code View' to see the code.
