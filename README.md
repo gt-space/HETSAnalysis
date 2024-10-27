@@ -9,7 +9,7 @@ If you have never used Github, this is how to properly install this GUI and upda
 
 ### Using the GUI
 1. Before opening the GUI, put the desired data file into the same folder as the GUI.
-2. Open the GUI. Type the name of the file, including the extension, into the 'data file' box. The GUI can use either .csv or .mat files; if any problems arise with a .mat file, convert it to a .csv file and file a complaint with Jackson Stahl.
+2. Open the GUI. Type the name of the file, including the extension, into the 'data file' box. The GUI can use either .csv or .mat files.
 3. Navigate to the 'Load Inputs' tab. Click the desired injector - subscale ablative is labelled as such because the desired MR is different from subscale heatsink. Ensure the dataset values are correct, change them if necessary, and press the 'Load' button to load them into the 'Main' tab.
 
     *If the dataset values are taking a long time to load, you can enter them manually in the 'Main' tab.
