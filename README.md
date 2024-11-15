@@ -5,7 +5,7 @@ GUI for HETS Data Analysis.
 If you have never used Github, this is how to properly install this GUI and update it when new updates are pushed.
 1. Open the terminal on your computer and navigate to the folder in which you want the GUI. Use ```ls``` to look inside your current folder and ```cd _folder_``` to move to a deeper one.
 2. Run ```git clone https://github.com/gt-space/HETSAnalysis.git```. This will create a version of the GUI on your computer. You can now run StahlDataAnalysis.mlapp from the file explorer like a normal application.
-3. When new updates are pushed, run ```git pull origin main``` to receive the update. The number at the bottom of the GUI should match the number in the commit message in Github.
+3. When new updates are pushed, run ```git pull origin main``` from the HETSAnalysis file to receive the update. The number at the bottom of the GUI should match the number in the commit message in Github.
 
 ### Using the GUI
 1. Before opening the GUI, put the desired data file into the same folder as the GUI.
@@ -18,7 +18,7 @@ If you have never used Github, this is how to properly install this GUI and upda
 7. Navigate to the 'Plots' tab to generate plots from the analyzed dataset.
 
 ### Viewing and editing the code
-If there seems to be a problem with the output data file, or if a sensor was swapped with another and the plots need to reflect that, you may need to view the code.
+If there seems to be a problem with the output data file or if you want to make changes to the analysis, you may need to view the code.
 1. Open Matlab.
 2. Navigate to the 'APPS' tab in the blue banner.
 3. Click 'Design App' in the grey header.
