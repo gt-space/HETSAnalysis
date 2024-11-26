@@ -27,4 +27,22 @@ If there seems to be a problem with the output data file or if you want to make 
 
 ### Errors
 If the code is halted for a very long time, there may be an error. If there is, it will appear in the MATLAB terminal and in App Designer if it is open.
-Note that the code takes a long time on Processing (3/4) and Running (4/12) due to the data parsing occuring in those sections. This is normal, especially with Spring '24 data where the datasets are substantially larger than the respective fire time.
+Note that the code takes a long time on Processing (4/5) and Running (4/12) due to the data parsing occuring in those sections. This is normal, especially with Spring '24 data where the datasets are substantially larger than the respective fire time.
+
+### How things are calculated
+There are a number of calulcations in the Data Analysis GUI.
+- LOX/LN2 densities: Using regression function from DENSITIES OF SATURATED LIQUID OXYGEN AND NITROGEN, by K. GOLDMAN and N. G. SCRASE, 1968.
+
+(mdots)
+- LOX/Fuel mdot from orifice cda: CdA equation with CdA=measured injector/orifice CdA and dP=injector/orifice pressure-chamber pressure
+- LOX/Fuel mdot from system cda: CdA equation with CdA=measured system CdA and dP=tank pressure-inj/orf pressure
+- LOX mdot from Venturi/FM: CdA equation with Cd=measured Venturi Cd and dP=Venturi pressure differential
+- Fuel mdot from FM: mdot from flow meter
+
+(Sys CdAs)
+- System CdA from Venturi/FM: CdA equation with mdot=Venturi/FM mdot and dP=tank pressure-inj/orf pressure
+- System CdA from Inj/Orf: CdA equation with mdot=mdot calculated from inj/orf CdA and dP=tank pressure-inj/orf pressure
+
+(Verifying inj/orf CdA)
+- Inj/Orf CdA from Venturi/FM: CdA eqn with mdot=Venturi/FM mdot and dP=inj/orf pressure-chamber pressure
+- Inj/Orf CdA from System CdA: CdA eqn with mdot=mdot calculated from sys cda and dP=inj/orf pressure-chamber pressure
