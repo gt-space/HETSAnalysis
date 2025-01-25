@@ -1,0 +1,16 @@
+problem
+ro
+fac
+ac/at=6
+p,bar=242.7057
+supar= 3.2
+o/f=1.2722
+reactant
+fu Jet-A(L) wt%=100
+ox O2(L) wt%=100
+output short
+output siunits
+output massf
+output transport
+plot t gam m cf
+end
